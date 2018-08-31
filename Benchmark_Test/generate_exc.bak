@@ -1,0 +1,121 @@
+from xlutils.copy import copy
+from xlrd import open_workbook
+from xlwt import easyxf
+from datetime import *
+import os
+import xlwt
+import xlrd
+import time
+
+
+t=time.strftime('%Y-%m-%d_%H_%M_%S',time.localtime(time.time()))
+name=("Antutu","Drawelement","Nemark1","Nemark2","3DRating","GLbench","0xbench")
+workbook=xlwt.Workbook(encoding='ascii')
+for i in range(0,len(name)):
+	borders=xlwt.Borders()
+        borders.left = xlwt.Borders.THIN
+        borders.right = xlwt.Borders.THIN
+        borders.top = xlwt.Borders.THIN
+        borders.bottom = xlwt.Borders.THIN
+#       borders.left_colour=0x3A
+#        borders.right_colour=0x3A
+	style='pattern: pattern solid, fore_colour yellow; '
+        style += 'font: bold on; '
+        style += 'align: horz center, vert center; '
+        data_style=xlwt.easyxf(style) 
+        data_style.borders=borders
+	worksheet=workbook.add_sheet(name[i])	
+	worksheet.write(0,0,"Resolution",data_style)
+	worksheet.write(1,0,"1920x1080",data_style)
+	worksheet.col(0).width=4444
+	worksheet.write(0,1,"AP",data_style)
+	worksheet.write(1,1,name[i],data_style)
+	worksheet.col(1).width=4444
+	worksheet.write(0,2,"Test Item",data_style)
+	worksheet.col(2).width=4444
+	if name[i]=='GLbench':
+		worksheet.write_merge(0,0,3,4,'Result',data_style)
+		worksheet.col
+	else:	
+		worksheet.write(0,3,"Result",data_style)
+        worksheet.col(3).width=4444
+	#worksheet.write_merge(0,0,3,4,'Result',data_style)
+workbook.save('./%sBenchmark_result.xls'%t)
+
+
+
+def wrexcel(row,column,val,sheNum,data_style,cell_width):
+	excel=r'./%sBenchmark_result.xls'%t
+	rb=open_workbook(excel,formatting_info=True)
+	wb=copy(rb)
+	sheet=wb.get_sheet(sheNum)
+	borders=xlwt.Borders()
+	borders.left = xlwt.Borders.THIN
+	borders.right = xlwt.Borders.THIN
+	borders.top = xlwt.Borders.THIN
+	borders.bottom = xlwt.Borders.THIN
+#	borders.left_colour=0x3A
+#        borders.right_colour=0x3A
+	data_style.borders=borders
+	sheet.write(row,column,val,data_style)
+	sheet.col(column).width=cell_width
+	os.remove(excel)
+	wb.save(excel)
+
+def data(file,Num,width):
+	count=-1
+	f=open(file,"r")
+	for line in f:
+		count+=1
+#		print count
+		line=line.strip('\r\n')
+#		print line
+		val=count%2
+#		print val
+		r=count/2
+		style='pattern: pattern solid, fore_colour yellow; '
+                style += 'font: bold on; '
+                style += 'align: horz left, vert center; '
+                d_style=xlwt.easyxf(style)
+                n_style=xlwt.easyxf()
+
+        	if val==0:
+			wrexcel(r+1,2,line,Num,n_style,width)
+		else:
+			wrexcel(r+1,3,line,Num,d_style,width)
+	f.close
+
+def data2(file,Num,width):
+        count=-1
+        f=open(file,"r")
+        for line in f:
+                count+=1
+#               print count
+                line=line.strip('\r\n')
+#               print line
+		style='pattern: pattern solid, fore_colour yellow; '
+                style += 'font: bold on; '
+                style += 'align: horz left, vert center; '
+                d_style=xlwt.easyxf(style)
+		n_style=xlwt.easyxf()
+                val=count%3
+#                print val
+                if val==0:
+			r=count/3
+                        wrexcel(r+1,2,line,Num,n_style,width)
+                elif val==1:
+			wrexcel(r+1,3,line,Num,d_style,width)
+		else:
+			wrexcel(r+1,4,line,Num,d_style,3333)
+	        f.close
+
+print "***********Generate Excel**************" 
+data("antutu.txt",0,6666)
+data("drawele.txt",1,6666)
+data("Nemark1.txt",2,6666)
+data("Nemark2.txt",3,6666)
+data("3DRating.txt",4,6666)
+data2("GLbench.txt",5,7777)
+data("0x.txt",6,6666)
+print "***********ALL Test Done!**************"
+print "Please refer to %sBenchmark_result.xls"%t

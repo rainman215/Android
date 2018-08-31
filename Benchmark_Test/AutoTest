@@ -1,0 +1,55 @@
+#!/bin/bash
+#export ANDROID_HOME=/home/Sdk
+#export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+chmod +x *
+log=Android_total_result.log
+d=`date +%Y_%m_%d_%H_%M`
+
+rm_file()
+{
+if [ -f $1 ]
+then
+	rm $1
+fi
+}
+
+rm_file $log
+
+LIT_TIME=5
+echo "Please input test IP Address:"
+read IP
+echo "Test IP address is: $IP" >$log
+echo "Please input reboot times:(0 is default 100)"
+read times
+
+if [ $times -eq 0 ]
+then
+times=100 
+fi
+
+echo "*********$times***********"
+adb_connect()
+{
+adb disconnect 
+sleep $LIT_TIME
+adb devices
+adb connect $IP
+sleep $LIT_TIME
+adb root
+sleep $LIT_TIME
+adb connect $IP
+sleep $LIT_TIME
+adb devices
+}
+
+echo "Start testing!!!" | tee -a $log
+adb_connect
+sleep $LIT_TIME
+#pro=`adb shell getprop ro.build.id`
+pro=`adb shell getprop ro.build.fingerprint | awk -F/ '{print $3}'`
+python create_exc $pro
+#./File_test
+./Start_benchmark $IP
+./Video_test
+#./Reboot_test $IP $log $d $times
+#python generate_exc $pro

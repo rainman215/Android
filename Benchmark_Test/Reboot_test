@@ -1,0 +1,69 @@
+#!/bin/bash
+LIT_TIME=5
+MID_TIME=20
+LONG_TIME=35
+times=$4
+echo $times
+IP=$1
+log=$2
+file=$3
+
+d=`date +%Y-%m-%d`
+adb_connect()
+{
+adb disconnect $IP
+sleep $LIT_TIME
+adb connect $IP
+sleep $LIT_TIME
+adb devices
+}
+
+adb shell rm /mnt/sdcard/$d/* 
+
+adb shell am force-stop com.example.viaembedded.reboottest
+sleep $LIT_TIME
+echo "**************Starting Reboot testing!!!**************" | tee -a $log
+
+#init reboot setting
+adb shell 'mkdir /sdcard/Log'
+adb shell 'mkdir /sdcard/Log/RebootTest'
+
+adb shell 'echo "30;'$times';0">/sdcard/Log/RebootTest/setting'
+
+adb shell cat /sdcard/Log/RebootTest/setting >reboot.log
+interval=`cat reboot.log | awk -F';' '{print $1}'`
+total=`cat reboot.log | awk -F';' '{print $2}'`
+last=`cat reboot.log | awk -F';' '{print $3}'`
+current=0
+
+echo "Current setting is:$interval $total $current" | tee -a $log
+
+monkeyrunner Reboot_Launch
+
+#check reboot times and OS status!!!
+while [ $current -lt $total ]
+do
+#  echo "Current reboot times is: $current!" | tee -a $log
+  sleep $interval
+  sleep $LONG_TIME
+     ping $IP -c 1
+  while [ $? -gt 0 ]
+   do
+     sleep $LIT_TIME
+     ping $IP -c 1
+   done 
+current=`expr $current + 1`  
+echo "Current reboot times is: $current" | tee -a $log
+adb_connect
+adb pull /sdcard/Log/RebootTest/setting .
+python reboot_exc
+done
+
+echo "Reboot Finish!!!"
+sleep $LIT_TIME
+adb_connect
+#adb pull /mnt/sdcard/$d ../result/$file/reboot_shot/
+#adb pull /sdcard/Log/RebootTest/setting .
+rm reboot.log
+adb shell am force-stop com.example.viaembedded.reboottest
+

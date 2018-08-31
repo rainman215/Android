@@ -1,0 +1,66 @@
+C24Z16 ETC1
+678\nframes
+6.0 fps
+C24Z16 Offscreen ETC1
+702\nframes
+6.2 fps
+C24Z16 PVRTC4
+Unsupported texture format\n
+
+C24Z16 Offscreen PVRTC4
+Unsupported texture format\n
+
+C24Z16 DXT1
+Unsupported texture format\n
+
+C24Z16 Offscreen DXT1
+Unsupported texture format\n
+
+C24Z16 ETC1->565
+677\nframes
+6.0 fps
+C24Z16 Offscreen ETC1->565
+702\nframes
+6.2 fps
+C24Z24MS4 ETC1
+441\nframes
+3.9 fps
+C24Z24MS4 Offscreen ETC1
+Offscreen MSAA not supported\n
+
+C24Z16 Fixed time ETC1
+204502\nmsec
+5.5 fps
+C24Z16 Fixed time Offscreen ETC1
+200556\nmsec
+5.6 fps
+C16Z16 ETC1
+1850\nframes
+16 fps
+C16Z16 Offscreen ETC1
+1926\nframes
+17 fps
+C24Z16 888
+245081472\ntexels/sec
+
+C24Z16 Offscreen 888
+259588352\ntexels/sec
+
+C24Z16 888
+16710061\ntriangles/sec
+
+C24Z16 Offscreen 888
+17011298\ntriangles/sec
+
+C24Z16 888
+16427450\ntriangles/sec
+
+C24Z16 Offscreen 888
+16954590\ntriangles/sec
+
+C24Z16 888
+9061622\ntriangles/sec
+
+C24Z16 Offscreen 888
+9405550\ntriangles/sec
+

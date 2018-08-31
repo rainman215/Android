@@ -1,0 +1,6 @@
+/mnt/sdcard/burningtest/vp8_540x360_elephants-dream.webm-----Duration:117701---------
+AverageMediaRate0.0%   AverageMXPlayerRate8.0% 
+/mnt/sdcard/burningtest/VC1_720x480_30FPS_2M.wmv-----Duration:160742---------
+AverageMediaRate0.0%   AverageMXPlayerRate17.555555% 
+/mnt/sdcard/burningtest/vp8_1920x912.we-----Duration:120384---------
+AverageMediaRate0.0%   AverageMXPlayerRate72.28571% 

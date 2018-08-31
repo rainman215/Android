@@ -1,0 +1,45 @@
+from xlutils.copy import copy
+from xlrd import open_workbook
+from xlwt import easyxf
+from datetime import *
+import os
+import sys
+import xlwt
+import xlrd
+import time
+
+
+f=open('name_exc','r')
+for pro in f:
+        print pro
+f.close()
+
+def wrexcel(row,column,val,sheNum,data_style,cell_width):
+	excel=r'%s'%pro
+	rb=open_workbook(excel,formatting_info=True)
+	wb=copy(rb)
+	sheet=wb.get_sheet(sheNum)
+	borders=xlwt.Borders()
+	borders.left = xlwt.Borders.THIN
+	borders.right = xlwt.Borders.THIN
+	borders.top = xlwt.Borders.THIN
+	borders.bottom = xlwt.Borders.THIN
+	data_style.borders=borders
+	sheet.write(row,column,val,data_style)
+	sheet.col(column).width=cell_width
+	os.remove(excel)
+	wb.save(excel)
+
+def RebootTest(file,Num,width):
+        f=open(file,"r")
+        for line in f:
+                line=line.split(';')
+	f.close
+	n_style=xlwt.easyxf()
+        wrexcel(1,0,line[0],Num,n_style,width)
+        wrexcel(1,1,line[1],Num,n_style,width)
+        wrexcel(1,2,line[2],Num,n_style,width)
+
+print "***********Generate Reboot Excel**************"
+RebootTest("setting",2,6666)
+print "Please refer to %s"%pro

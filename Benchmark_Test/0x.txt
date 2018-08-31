@@ -1,0 +1,22 @@
+Draw Canvas
+14.77499
+Draw Circle
+13.438937
+Draw Circle2
+20.292156
+Draw Rect
+15.552775
+Draw Arc
+22.80795
+Draw Image
+6.728464
+Draw Text
+45.424805
+OpenGL Cube
+59.214157
+OpenGL Blending
+55.206215
+OpenGL Fog
+59.4627
+Flying Teaport
+55.547836

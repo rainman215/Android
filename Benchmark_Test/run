@@ -1,0 +1,2 @@
+pro=`adb shell getprop ro.build.fingerprint | awk -F/ '{print $3}'`
+python generate_exc $pro

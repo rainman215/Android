@@ -1,0 +1,287 @@
+--------- beginning of system
+05-08 16:58:49.970  1087 25138 W ViewServer: Connection error: 
+05-08 16:58:49.970  1087 25138 W ViewServer: java.net.SocketException: Socket closed
+05-08 16:58:49.970  1087 25138 W ViewServer: 	at libcore.io.Posix.accept(Native Method)
+05-08 16:58:49.970  1087 25138 W ViewServer: 	at libcore.io.BlockGuardOs.accept(BlockGuardOs.java:63)
+05-08 16:58:49.970  1087 25138 W ViewServer: 	at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:89)
+05-08 16:58:49.970  1087 25138 W ViewServer: 	at java.net.ServerSocket.implAccept(ServerSocket.java:217)
+05-08 16:58:49.970  1087 25138 W ViewServer: 	at java.net.ServerSocket.accept(ServerSocket.java:141)
+05-08 16:58:49.970  1087 25138 W ViewServer: 	at com.android.server.wm.ViewServer.run(ViewServer.java:166)
+05-08 16:58:49.970  1087 25138 W ViewServer: 	at java.lang.Thread.run(Thread.java:818)
+--------- beginning of main
+05-08 16:58:50.303 25177 25187 I art     : Background sticky concurrent mark sweep GC freed 16875(705KB) AllocSpace objects, 0(0B) LOS objects, 32% free, 1624KB/2MB, paused 18.069ms total 34.950ms
+05-08 16:58:51.781 25102 25102 D MonkeyStub: translateCommand: tap 960 448
+05-08 16:58:51.864   226   938 W audio_hw_primary: out_set_parameters routing=2, ret 0, out -1242503872
+05-08 16:58:51.874   226   938 I audio_hw_primary: start_output_stream... -1242503872, device 1024
+05-08 16:58:51.876   226   938 W audio_hw_primary: card 0, port 0 device 0x400
+05-08 16:58:51.876   226   938 W audio_hw_primary: rate 44100, channel 2 period_size 0x600
+05-08 16:58:54.953   226   938 W audio_hw_primary: do_out_standby... -1242503872
+05-08 16:58:55.289 25102 25102 D MonkeyStub: translateCommand: tap 960 496
+05-08 16:58:55.359   226   938 W audio_hw_primary: out_set_parameters routing=2, ret 0, out -1242503872
+05-08 16:58:55.368   226   938 I audio_hw_primary: start_output_stream... -1242503872, device 1024
+05-08 16:58:55.372   226   938 W audio_hw_primary: card 0, port 0 device 0x400
+05-08 16:58:55.372   226   938 W audio_hw_primary: rate 44100, channel 2 period_size 0x600
+05-08 16:58:55.403   226   938 D AudioFlinger: mixer(0xb42c0000) throttle end: throttle time(17)
+05-08 16:58:58.453   226   938 W audio_hw_primary: do_out_standby... -1242503872
+05-08 16:58:58.875 25102 25102 D MonkeyStub: translateCommand: tap 485 723
+05-08 16:58:58.942   226   938 W audio_hw_primary: out_set_parameters routing=2, ret 0, out -1242503872
+05-08 16:58:58.944  1087  1761 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/.TesterCanvas (has extras)} from uid 10046 on display 0
+05-08 16:58:58.952   226   938 I audio_hw_primary: start_output_stream... -1242503872, device 1024
+05-08 16:58:58.956   226   938 W audio_hw_primary: card 0, port 0 device 0x400
+05-08 16:58:58.956   226   938 W audio_hw_primary: rate 44100, channel 2 period_size 0x600
+05-08 16:58:58.977   226   938 D AudioFlinger: mixer(0xb42c0000) throttle end: throttle time(8)
+05-08 16:58:59.076  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 16:58:59.350  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/.TesterCanvas: +383ms
+05-08 16:59:02.033   226   938 W audio_hw_primary: do_out_standby... -1242503872
+05-08 16:59:20.106  1087  1812 W ActivityManager: Duplicate finish request for ActivityRecord{497b18 u0 org.zeroxlab.zeroxbenchmark/.TesterCanvas t13 f}
+05-08 16:59:20.134  1087  1255 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/.TesterCanvas (has extras)} from uid 10046 on display 0
+05-08 16:59:20.331  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 16:59:20.620  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/.TesterCanvas: +465ms
+05-08 16:59:23.303  1087  1097 I art     : Background partial concurrent mark sweep GC freed 25758(2MB) AllocSpace objects, 20(416KB) LOS objects, 33% free, 5MB/8MB, paused 1.897ms total 162.920ms
+05-08 16:59:41.427  1087  1855 W ActivityManager: Duplicate finish request for ActivityRecord{200272e u0 org.zeroxlab.zeroxbenchmark/.TesterCanvas t13 f}
+05-08 16:59:41.498  1087  1823 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/.TesterCanvas (has extras)} from uid 10046 on display 0
+05-08 16:59:41.795  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 16:59:42.155  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/.TesterCanvas: +614ms
+05-08 16:59:42.440  1087  1837 W art     : Long monitor contention event with owner method=void com.android.server.wm.WindowAnimator$1.doFrame(long) from WindowAnimator.java:121 waiters=1 for 111ms
+05-08 17:00:03.568  1087  1812 W ActivityManager: Duplicate finish request for ActivityRecord{c5a52f4 u0 org.zeroxlab.zeroxbenchmark/.TesterCanvas t13 f}
+05-08 17:00:03.575  1087  1737 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawCircle (has extras)} from uid 10046 on display 0
+05-08 17:00:03.941  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:00:04.200  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawCircle: +587ms
+05-08 17:00:27.065  1087  1855 W ActivityManager: Duplicate finish request for ActivityRecord{65673ea u0 org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawCircle t13 f}
+05-08 17:00:27.151  1087  1854 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawCircle (has extras)} from uid 10046 on display 0
+05-08 17:00:27.702  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:00:27.957  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawCircle: +709ms
+05-08 17:00:36.989  1087  1101 W ActivityManager: Launch timeout has expired, giving up wake lock!
+05-08 17:00:48.866 25177 25177 E Benchmark: Track err: net::ERR_CONNECTION_TIMED_OUT
+05-08 17:00:48.866 25177 25177 I Benchmark: Tracker:  -> http://0xbenchmark.appspot.com/static/MobileTracker.html
+05-08 17:00:48.871 25177 25177 W BindingManager: Cannot call determinedVisibility() - never saw a connection for the pid: 25177
+05-08 17:00:48.873 25177 25177 W BindingManager: Cannot call determinedVisibility() - never saw a connection for the pid: 25177
+05-08 17:00:48.969 25177 25177 I chromium: [INFO:CONSOLE(0)] "Not allowed to load local resource: file:///android_asset/webkit/android-weberror.png", source: data:text/html,chromewebdata (0)
+05-08 17:00:51.285  1087  1098 W ActivityManager: Duplicate finish request for ActivityRecord{7466b90 u0 org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawCircle t13 f}
+05-08 17:00:51.369  1087  1854 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawCircle (has extras)} from uid 10046 on display 0
+05-08 17:00:51.871  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:00:52.146  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawCircle: +681ms
+05-08 17:01:01.192  1087  1101 W ActivityManager: Launch timeout has expired, giving up wake lock!
+05-08 17:01:15.199  1087  1099 W ActivityManager: Duplicate finish request for ActivityRecord{4c8e766 u0 org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawCircle t13 f}
+05-08 17:01:15.281  1087  1837 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawCircle2 (has extras)} from uid 10046 on display 0
+05-08 17:01:15.932  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:01:16.376  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawCircle2: +1s2ms
+05-08 17:01:30.908  1087  1856 W ActivityManager: Duplicate finish request for ActivityRecord{e7dc0ec u0 org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawCircle2 t13 f}
+05-08 17:01:30.918  1087  1737 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawCircle2 (has extras)} from uid 10046 on display 0
+05-08 17:01:31.104  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:01:31.302  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawCircle2: +365ms
+05-08 17:01:47.557  1087  1837 W ActivityManager: Duplicate finish request for ActivityRecord{3446a33 u0 org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawCircle2 t13 f}
+05-08 17:01:47.564  1087  1098 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawRect (has extras)} from uid 10046 on display 0
+05-08 17:01:47.748  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:01:47.951  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawRect: +366ms
+05-08 17:02:05.970  1087  1823 W ActivityManager: Duplicate finish request for ActivityRecord{5d010c6 u0 org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawRect t13 f}
+05-08 17:02:05.976  1087  1855 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawRect (has extras)} from uid 10046 on display 0
+05-08 17:02:06.154  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:02:06.496  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawRect: +495ms
+05-08 17:02:28.989  1087  1856 W ActivityManager: Duplicate finish request for ActivityRecord{e93995 u0 org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawRect t13 f}
+05-08 17:02:28.995  1087  1837 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawRect (has extras)} from uid 10046 on display 0
+05-08 17:02:29.179  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:02:29.377  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawRect: +358ms
+05-08 17:02:49.492  1087  1855 W ActivityManager: Duplicate finish request for ActivityRecord{29a2850 u0 org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawRect t13 f}
+05-08 17:02:49.502  1087  1856 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawArc (has extras)} from uid 10046 on display 0
+05-08 17:02:49.704  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:02:49.930  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawArc: +409ms
+05-08 17:03:12.690  1087  1737 W ActivityManager: Duplicate finish request for ActivityRecord{c43f667 u0 org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawArc t13 f}
+05-08 17:03:12.701  1087  1854 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawArc (has extras)} from uid 10046 on display 0
+05-08 17:03:12.890  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:03:13.084  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawArc: +365ms
+05-08 17:03:35.723  1087  1854 W ActivityManager: Duplicate finish request for ActivityRecord{771360a u0 org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawArc t13 f}
+05-08 17:03:35.730  1087  1761 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawImage (has extras)} from uid 10046 on display 0
+05-08 17:03:35.962  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:03:36.148  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawImage: +392ms
+05-08 17:04:51.404  1087  1255 W ActivityManager: Duplicate finish request for ActivityRecord{2801129 u0 org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawImage t13 f}
+05-08 17:04:51.411  1087  1837 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawImage (has extras)} from uid 10046 on display 0
+05-08 17:04:51.604  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:04:51.798  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawImage: +365ms
+05-08 17:06:06.742  1087  1812 W ActivityManager: Duplicate finish request for ActivityRecord{8e09474 u0 org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawImage t13 f}
+05-08 17:06:06.751  1087  1761 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawText (has extras)} from uid 10046 on display 0
+05-08 17:06:06.938  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:06:07.127  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawText: +357ms
+05-08 17:06:14.657  1087  1837 W ActivityManager: Duplicate finish request for ActivityRecord{b2d965b u0 org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawText t13 f}
+05-08 17:06:14.668  1087  1854 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawText (has extras)} from uid 10046 on display 0
+05-08 17:06:14.887  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:06:15.145  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawText: +459ms
+05-08 17:06:22.488  1087  1761 W ActivityManager: Duplicate finish request for ActivityRecord{5a36a0e u0 org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawText t13 f}
+05-08 17:06:22.498  1087  1737 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawText (has extras)} from uid 10046 on display 0
+05-08 17:06:22.687  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:06:22.898  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawText: +378ms
+05-08 17:06:30.148  1087  1737 W ActivityManager: Duplicate finish request for ActivityRecord{234e7d u0 org.zeroxlab.zeroxbenchmark/org.zeroxlab.graphics.DrawText t13 f}
+05-08 17:06:30.156  1087  1837 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/org.zeroxlab.kubench.Kubench (has extras)} from uid 10046 on display 0
+05-08 17:06:30.396  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:06:30.432 25177 25177 D GLSurfaceView: surfaceCreated
+05-08 17:06:30.434 25177 25177 D GLSurfaceView: surfaceChanged
+05-08 17:06:30.483   199   225 E BufferQueueProducer: [SurfaceView] dequeueBuffer: can't dequeue multiple buffers without setting the buffer count
+05-08 17:06:30.672  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/org.zeroxlab.kubench.Kubench: +496ms
+05-08 17:06:47.436  1087  1855 W ActivityManager: Duplicate finish request for ActivityRecord{794958 u0 org.zeroxlab.zeroxbenchmark/org.zeroxlab.kubench.Kubench t13 f}
+05-08 17:06:47.444  1087  1099 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/org.zeroxlab.kubench.Kubench (has extras)} from uid 10046 on display 0
+05-08 17:06:47.629  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:06:47.666 25177 25177 D GLSurfaceView: surfaceCreated
+05-08 17:06:47.667 25177 25177 D GLSurfaceView: surfaceChanged
+05-08 17:06:47.689   199   223 E BufferQueueProducer: [SurfaceView] dequeueBuffer: can't dequeue multiple buffers without setting the buffer count
+05-08 17:06:48.529  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/org.zeroxlab.kubench.Kubench: +1s59ms
+05-08 17:06:48.549 25177 25177 D GLSurfaceView: surfaceDestroyed
+05-08 17:07:04.694  1087  1098 W ActivityManager: Duplicate finish request for ActivityRecord{7d7de0f u0 org.zeroxlab.zeroxbenchmark/org.zeroxlab.kubench.Kubench t13 f}
+05-08 17:07:04.708  1087  1812 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/org.zeroxlab.kubench.Kubench (has extras)} from uid 10046 on display 0
+05-08 17:07:04.897  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:07:04.934 25177 25177 D GLSurfaceView: surfaceCreated
+05-08 17:07:04.935 25177 25177 D GLSurfaceView: surfaceChanged
+05-08 17:07:04.966   199  1138 E BufferQueueProducer: [SurfaceView] dequeueBuffer: can't dequeue multiple buffers without setting the buffer count
+05-08 17:07:05.195  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/org.zeroxlab.kubench.Kubench: +467ms
+05-08 17:07:05.219 25177 25177 D GLSurfaceView: surfaceDestroyed
+05-08 17:07:21.842  1087  1737 W ActivityManager: Duplicate finish request for ActivityRecord{d7dd0d2 u0 org.zeroxlab.zeroxbenchmark/org.zeroxlab.kubench.Kubench t13 f}
+05-08 17:07:21.850  1087  1856 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/com.nea.nehe.lesson08.Run (has extras)} from uid 10046 on display 0
+05-08 17:07:22.095  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:07:22.163   199   223 E BufferQueueProducer: [SurfaceView] dequeueBuffer: can't dequeue multiple buffers without setting the buffer count
+05-08 17:07:22.398  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/com.nea.nehe.lesson08.Run: +517ms
+05-08 17:07:22.488 25177 25177 D GLSurfaceView: surfaceDestroyed
+05-08 17:07:41.432  1087  1812 W ActivityManager: Duplicate finish request for ActivityRecord{439e591 u0 org.zeroxlab.zeroxbenchmark/com.nea.nehe.lesson08.Run t13 f}
+05-08 17:07:41.459  1087  1823 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/com.nea.nehe.lesson08.Run (has extras)} from uid 10046 on display 0
+05-08 17:07:41.646  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:07:41.716   199   225 E BufferQueueProducer: [SurfaceView] dequeueBuffer: can't dequeue multiple buffers without setting the buffer count
+05-08 17:07:41.963  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/com.nea.nehe.lesson08.Run: +479ms
+05-08 17:08:00.904  1087  1855 W ActivityManager: Duplicate finish request for ActivityRecord{fab4afc u0 org.zeroxlab.zeroxbenchmark/com.nea.nehe.lesson08.Run t13 f}
+05-08 17:08:00.922  1087  1761 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/com.nea.nehe.lesson16.Run (has extras)} from uid 10046 on display 0
+05-08 17:08:01.130  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:08:01.191   199   225 E BufferQueueProducer: [SurfaceView] dequeueBuffer: can't dequeue multiple buffers without setting the buffer count
+05-08 17:08:01.481  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/com.nea.nehe.lesson16.Run: +533ms
+05-08 17:08:19.653  1087  1837 W ActivityManager: Duplicate finish request for ActivityRecord{9cf2183 u0 org.zeroxlab.zeroxbenchmark/com.nea.nehe.lesson16.Run t13 f}
+05-08 17:08:19.677  1087  1255 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/com.nea.nehe.lesson16.Run (has extras)} from uid 10046 on display 0
+05-08 17:08:19.912  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:08:19.952   199   223 E BufferQueueProducer: [SurfaceView] dequeueBuffer: can't dequeue multiple buffers without setting the buffer count
+05-08 17:08:20.200  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/com.nea.nehe.lesson16.Run: +498ms
+05-08 17:08:37.434  1087  1099 W ActivityManager: Duplicate finish request for ActivityRecord{7f04e56 u0 org.zeroxlab.zeroxbenchmark/com.nea.nehe.lesson16.Run t13 f}
+05-08 17:08:37.458  1087  1837 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/org.itri.teapot.TeapotES (has extras)} from uid 10046 on display 0
+05-08 17:08:37.618 25177 25177 D glesteapot: Teapot()
+05-08 17:08:37.618 25177 25177 D glesteapot: TeapotRender
+05-08 17:08:37.645  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:08:37.707   199  2542 E BufferQueueProducer: [SurfaceView] dequeueBuffer: can't dequeue multiple buffers without setting the buffer count
+05-08 17:08:37.750 25177 25764 D glesteapot: TeapotRender surfaceCreated()
+05-08 17:08:37.750 25177 25764 D glesteapot: sizeChanged: 1920, 983
+05-08 17:08:38.148  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/org.itri.teapot.TeapotES: +668ms
+05-08 17:08:56.852  1087  1098 W ActivityManager: Duplicate finish request for ActivityRecord{6a28a65 u0 org.zeroxlab.zeroxbenchmark/org.itri.teapot.TeapotES t13 f}
+05-08 17:08:56.875  1087  1854 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/org.itri.teapot.TeapotES (has extras)} from uid 10046 on display 0
+05-08 17:08:57.035 25177 25177 D glesteapot: Teapot()
+05-08 17:08:57.035 25177 25177 D glesteapot: TeapotRender
+05-08 17:08:57.082  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:08:57.142   199  1138 E BufferQueueProducer: [SurfaceView] dequeueBuffer: can't dequeue multiple buffers without setting the buffer count
+05-08 17:08:57.192 25177 25781 D glesteapot: TeapotRender surfaceCreated()
+05-08 17:08:57.192 25177 25781 D glesteapot: sizeChanged: 1920, 983
+05-08 17:08:57.440  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/org.itri.teapot.TeapotES: +546ms
+05-08 17:09:16.282  1087  1855 W ActivityManager: Duplicate finish request for ActivityRecord{6005d60 u0 org.zeroxlab.zeroxbenchmark/org.itri.teapot.TeapotES t13 f}
+05-08 17:09:16.367 25177 25177 W Benchmark: File exists, delete /storage/emulated/00xBenchmark
+05-08 17:09:16.446  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:09:16.503 25177 25799 E CaseArithmetic: cannot fetch report: Linpack : true : false
+05-08 17:09:16.503 25177 25799 E CaseScimark2: cannot fetch report: Scimark2 : true : false
+05-08 17:09:16.503 25177 25799 E CaseJavascript: cannot fetch report: SunSpider : true : false
+05-08 17:09:16.506 25177 25799 E CaseGC  : cannot fetch report: Garbage Collection : true : false
+05-08 17:09:16.506 25177 25799 E NativeCaseMicro: cannot fetch report: LibMicro : true : false
+05-08 17:09:16.506 25177 25799 E NativeCaseUbench: cannot fetch report: UnixBench : true : false
+05-08 17:09:16.528 25177 25799 E Benchmark: :Freescale i.MX6 Quad/DualLite (Device Tree):0000
+05-08 17:09:16.528 25177 25799 E CaseArithmetic: cannot fetch report: Linpack : true : false
+05-08 17:09:16.528 25177 25799 E CaseScimark2: cannot fetch report: Scimark2 : true : false
+05-08 17:09:16.528 25177 25799 E CaseJavascript: cannot fetch report: SunSpider : true : false
+05-08 17:09:16.529 25177 25799 E CaseCanvas: length of scenarios: 1
+05-08 17:09:16.530 25177 25799 E CaseDrawCircle: length of scenarios: 1
+05-08 17:09:16.531 25177 25799 E CaseDrawCircle2: length of scenarios: 1
+05-08 17:09:16.531 25177 25799 E CaseDrawRect: length of scenarios: 1
+05-08 17:09:16.532 25177 25799 E CaseDrawArc: length of scenarios: 1
+05-08 17:09:16.532 25177 25799 E CaseDrawImage: length of scenarios: 1
+05-08 17:09:16.533 25177 25799 E CaseDrawText: length of scenarios: 1
+05-08 17:09:16.533 25177 25799 E CaseGLCube: length of scenarios: 1
+05-08 17:09:16.533 25177 25799 E NeheLesson08: length of scenarios: 1
+05-08 17:09:16.534 25177 25799 E NeheLesson16: length of scenarios: 1
+05-08 17:09:16.535 25177 25799 E Teapot  : length of scenarios: 1
+05-08 17:09:16.550 25177 25799 E CaseGC  : cannot fetch report: Garbage Collection : true : false
+05-08 17:09:16.550 25177 25799 E NativeCaseMicro: cannot fetch report: LibMicro : true : false
+05-08 17:09:16.550 25177 25799 E NativeCaseUbench: cannot fetch report: UnixBench : true : false
+05-08 17:09:16.552 25177 25799 D Benchmark: XML: <?xml version="1.0" encoding="UTF-8"?><result executedTimestamp="2017-05-08T17:09:16GMT+08:00" manufacturer="Freescale" model="ARTiGO_A820:artigo_a820_6dl-userdebug 6.0.1 ARTiGO_A820_Android_BSP_v5.0.2 20170504 release-keys" buildTimestamp="2017-05-04T16:16:03GMT+08:00" orientation="2" version="Linux version 3.14.52-g919a55a1ef2 (zoralvAndroid5.0@zoralv-Z97-D3H) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #25 SMP PREEMPT Tue May 2 11:13:08 CST 2017" cpu=":Freescale i.MX6 Quad/DualLite (Device Tree):0000"><scenario benchmark="DrawCanvas" unit="2d-fps" tags="2d,render,view,">14.985764503479004 14.932059288024902 14.407145500183105 </scenario><scenario benchmark="DrawCircle" unit="2d-fps" tags="2d,render,skia,view,">13.541572570800781 13.310853004455566 13.464386940002441 </scenario><scenario benchmark="DrawCircle2" unit="2d-fps" tags="2d,render,skia,view,">21.189434051513672 19.394878387451172 </scenario><scenario benchmark="DrawRect" unit="2d-fps" tags="2d,render,skia,view,">17.40643882751465 13.734376907348633 15.517508506774902 </scenario><scenario benchmark="DrawArc" unit="2d-fps" tags="2d,render,skia,view,">22.7210750579834 22.894821166992188 </scenario><scenario benchmark="DrawImage" unit="2d-fps" tags="2d,render,skia,view,">6.714112758636475 6.7428154945373535 </scenario><scenario benchmark="DrawText" unit="2d-fps" tags="2d,render,skia,view,">44.60303497314453 45.303531646728516 46.36785125732422 </scenario><scenario benchmark="OpenGLCube" unit="3d-fps" tags="3d,opengl,render,apidemo,">59.2557487487793 58.98312759399414 59.40359115600586 </scenario><scenario benchmark="OpenGLBlending" unit="3d-fps" tags="render,opengl,nehe,gltexture,glblending,3d,">55.078208923339844 55.3342170715332 </scenario><scenario benchmark="OpenGLFog" unit="3d-fps" tags="3d,opengl,nehe,glfog,gltexture,render,">57.70340347290039 61.22199249267578 </scenario><scenario benchmark="FlyingTeapot" unit="3d-fps" tags="3d,opengl,render,">55.549381256103516 55.546295166015625 </scenario></result>
+05-08 17:09:16.567 25177 25799 W Benchmark: File exists, delete /storage/emulated/00xBenchmark.xml
+05-08 17:09:16.571 25177 25799 D Benchmark: JSON: {"test_runs":[{"analyzer_assigned_date":"2017-05-08T17:09:16Z","time_check_performed":false,"analyzer_assigned_uuid":"51ca43e7-df6d-4bbb-960b-bb6bf0945723","test_id":"0xbench","test_results":[{"test_case_id":"DrawCanvas","measurement":14.774989866814556,"units":"2d-fps","result":"pass"},{"test_case_id":"DrawCircle","measurement":13.438937457145022,"units":"2d-fps","result":"pass"},{"test_case_id":"DrawCircle2","measurement":20.29215639119757,"units":"2d-fps","result":"pass"},{"test_case_id":"DrawRect","measurement":15.552775143022103,"units":"2d-fps","result":"pass"},{"test_case_id":"DrawArc","measurement":22.807947995056946,"units":"2d-fps","result":"pass"},{"test_case_id":"DrawImage","measurement":6.728464248379914,"units":"2d-fps","result":"pass"},{"test_case_id":"DrawText","measurement":45.42480647794995,"units":"2d-fps","result":"pass"},{"test_case_id":"OpenGLCube","measurement":59.214156061416524,"units":"3d-fps","result":"pass"},{"test_case_id":"OpenGLBlending","measurement":55.20621389107859,"units":"3d-fps","result":"pass"},{"test_case_id":"OpenGLFog","measurement":59.46269853332628,"units":"3d-fps","result":"pass"},{"test_case_id":"FlyingTeapot","measurement":55.5478389726314,"units":"3d-fps","result":"pass"}]}],"format":"Dashboard Bundle Format 1.2"}
+05-08 17:09:16.580 25177 25799 W Benchmark: File exists, delete /storage/emulated/00xBenchmark.bundle
+05-08 17:09:16.588 25177 25799 I Benchmark: 
+05-08 17:09:16.588 25177 25799 I Benchmark: 
+05-08 17:09:16.588 25177 25799 I Benchmark: ============================================================
+05-08 17:09:16.588 25177 25799 I Benchmark: Draw Canvas
+05-08 17:09:16.588 25177 25799 I Benchmark: ------------------------------------------------------------
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 0 fps = 14.9857645
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 1 fps = 14.932059
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 2 fps = 14.4071455
+05-08 17:09:16.588 25177 25799 I Benchmark: Average: fps = 14.77499
+05-08 17:09:16.588 25177 25799 I Benchmark: ============================================================
+05-08 17:09:16.588 25177 25799 I Benchmark: Draw Circle
+05-08 17:09:16.588 25177 25799 I Benchmark: ------------------------------------------------------------
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 0: fps = 13.541573
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 1: fps = 13.310853
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 2: fps = 13.464387
+05-08 17:09:16.588 25177 25799 I Benchmark: Average: fps = 13.438937
+05-08 17:09:16.588 25177 25799 I Benchmark: ============================================================
+05-08 17:09:16.588 25177 25799 I Benchmark: Draw Circle2
+05-08 17:09:16.588 25177 25799 I Benchmark: ------------------------------------------------------------
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 0: fps = 21.189434
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 1: fps = 19.394878
+05-08 17:09:16.588 25177 25799 I Benchmark: Average: fps = 20.292156
+05-08 17:09:16.588 25177 25799 I Benchmark: ============================================================
+05-08 17:09:16.588 25177 25799 I Benchmark: Draw Rect
+05-08 17:09:16.588 25177 25799 I Benchmark: ------------------------------------------------------------
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 0: fps = 17.406439
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 1: fps = 13.734377
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 2: fps = 15.5175085
+05-08 17:09:16.588 25177 25799 I Benchmark: Average: fps = 15.552775
+05-08 17:09:16.588 25177 25799 I Benchmark: ============================================================
+05-08 17:09:16.588 25177 25799 I Benchmark: Draw Arc
+05-08 17:09:16.588 25177 25799 I Benchmark: ------------------------------------------------------------
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 0: fps = 22.721075
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 1: fps = 22.894821
+05-08 17:09:16.588 25177 25799 I Benchmark: Average: fps = 22.80795
+05-08 17:09:16.588 25177 25799 I Benchmark: ============================================================
+05-08 17:09:16.588 25177 25799 I Benchmark: Draw Image
+05-08 17:09:16.588 25177 25799 I Benchmark: ------------------------------------------------------------
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 0: fps = 6.7141128
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 1: fps = 6.7428155
+05-08 17:09:16.588 25177 25799 I Benchmark: Average: fps = 6.728464
+05-08 17:09:16.588 25177 25799 I Benchmark: ============================================================
+05-08 17:09:16.588 25177 25799 I Benchmark: Draw Text
+05-08 17:09:16.588 25177 25799 I Benchmark: ------------------------------------------------------------
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 0: fps = 44.603035
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 1: fps = 45.30353
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 2: fps = 46.36785
+05-08 17:09:16.588 25177 25799 I Benchmark: Average: fps = 45.424805
+05-08 17:09:16.588 25177 25799 I Benchmark: ============================================================
+05-08 17:09:16.588 25177 25799 I Benchmark: OpenGL Cube
+05-08 17:09:16.588 25177 25799 I Benchmark: ------------------------------------------------------------
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 0: fps = 59.25575
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 1: fps = 58.983128
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 2: fps = 59.40359
+05-08 17:09:16.588 25177 25799 I Benchmark: Average: fps = 59.214157
+05-08 17:09:16.588 25177 25799 I Benchmark: ============================================================
+05-08 17:09:16.588 25177 25799 I Benchmark: OpenGL Blending
+05-08 17:09:16.588 25177 25799 I Benchmark: ------------------------------------------------------------
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 0: fps = 55.07821
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 1: fps = 55.334217
+05-08 17:09:16.588 25177 25799 I Benchmark: Average: fps = 55.206215
+05-08 17:09:16.588 25177 25799 I Benchmark: ============================================================
+05-08 17:09:16.588 25177 25799 I Benchmark: OpenGL Fog
+05-08 17:09:16.588 25177 25799 I Benchmark: ------------------------------------------------------------
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 0: fps = 57.703403
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 1: fps = 61.221992
+05-08 17:09:16.588 25177 25799 I Benchmark: Average: fps = 59.4627
+05-08 17:09:16.588 25177 25799 I Benchmark: ============================================================
+05-08 17:09:16.588 25177 25799 I Benchmark: Flying Teapot
+05-08 17:09:16.588 25177 25799 I Benchmark: ------------------------------------------------------------
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 0: fps = 55.54938
+05-08 17:09:16.588 25177 25799 I Benchmark: Round 1: fps = 55.546295
+05-08 17:09:16.588 25177 25799 I Benchmark: Average: fps = 55.547836
+05-08 17:09:16.588 25177 25799 I Benchmark: ============================================================
+05-08 17:09:16.588 25177 25799 I Benchmark: 
+05-08 17:09:16.588 25177 25799 I Benchmark: 
+05-08 17:09:16.600 25177 25799 W Benchmark: File exists, delete /storage/emulated/00xBenchmark
+05-08 17:09:16.619  1087  1761 I ActivityManager: START u0 {cmp=org.zeroxlab.zeroxbenchmark/.Report (has extras)} from uid 10046 on display 0
+05-08 17:09:16.795  1223  1223 V PhoneStatusBar: setLightsOn(true)
+05-08 17:09:16.954  1087  1106 I ActivityManager: Displayed org.zeroxlab.zeroxbenchmark/.Report: +270ms
+05-08 17:14:19.063  1087  1100 I UsageStatsService: User[0] Flushing usage stats to disk
+05-08 17:18:00.053  1087  1101 I ProcessStatsService: Prepared write state in 1ms

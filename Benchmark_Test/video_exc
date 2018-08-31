@@ -1,0 +1,93 @@
+from xlutils.copy import copy
+from xlrd import open_workbook
+from xlwt import easyxf
+from datetime import *
+import os
+import sys
+import xlwt
+import xlrd
+import time
+
+f=open('name_exc','r')
+for pro in f:
+        print pro
+f.close()
+
+
+
+os.system('adb pull /sdcard/Log/PlayVideo/cpu_log.txt')
+os.system('adb pull /sdcard/Log/PlayVideo/mem_log.txt')
+
+os.system('python list_change cpu_log.txt cpu.txt')
+os.system('python list_change mem_log.txt mem.txt')
+
+def wrexcel(row,column,val,sheNum,data_style,cell_width):
+	excel=r'%s'%pro
+	rb=open_workbook(excel,formatting_info=True)
+	wb=copy(rb)
+	sheet=wb.get_sheet(sheNum)
+	borders=xlwt.Borders()
+	borders.left = xlwt.Borders.THIN
+	borders.right = xlwt.Borders.THIN
+	borders.top = xlwt.Borders.THIN
+	borders.bottom = xlwt.Borders.THIN
+	data_style.borders=borders
+	sheet.write(row,column,val,data_style)
+	sheet.col(column).width=cell_width
+	os.remove(excel)
+	wb.save(excel)
+
+def video(file,Num,width):
+	count=-1
+        f=open(file,"r")
+        for line in f:
+       		count+=1
+                print count
+        	line=line.strip('\r\n')
+                print line
+	        val=count%2
+#                print val
+        	r=count/2
+		print r
+        	style='pattern: pattern solid, fore_colour yellow; '
+        	style += 'font: bold on; '
+        	style += 'align: horz left, vert center; '
+        	d_style=xlwt.easyxf(style)
+        	n_style=xlwt.easyxf()
+        	if val==0:
+			wrexcel(r+1,0,line,Num,n_style,25000)
+        	else:
+                	wrexcel(r+1,1,line,Num,d_style,width)
+       	f.close
+
+
+def video_mem(file,Num,width):
+        count=-1
+        f=open(file,"r")
+        for line in f:
+                count+=1
+                print count
+                line=line.strip('\r\n')
+                print line
+                val=count%2
+#                print val
+                r=count/2
+                print r
+                style='pattern: pattern solid, fore_colour yellow; '
+                style += 'font: bold on; '
+                style += 'align: horz left, vert center; '
+                d_style=xlwt.easyxf(style)
+                n_style=xlwt.easyxf()
+                if val==0:
+                        wrexcel(r+1,0,line,Num,n_style,25000)
+                else:
+                        wrexcel(r+1,2,line,Num,d_style,width)
+        f.close
+
+print "***********Generate Video Usage Excel**************" 
+#file_test("filetest.log",0,9999)
+
+video("cpu.txt",1,17777)
+video_mem("mem.txt",1,17777)
+print "***********Video Test Done!**************"
+print "Please refer to %s"%pro

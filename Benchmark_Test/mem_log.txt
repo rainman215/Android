@@ -1,0 +1,76 @@
+/storage/128E-102C/Test_video/H264_1280x720_2M_30FPS_CAVLC_AAC_20140523_2.mp4:
+
+AverageMediaRate: 17181.00k   AverageMXPlayerRate: 56045.50k 
+
+/storage/128E-102C/Test_video/H264_1280x720_2M_30FPS_CAVLC_AAC_20140523_3.mp4:
+
+AverageMediaRate: 16834.00k   AverageMXPlayerRate: 54428.00k 
+
+/storage/128E-102C/Test_video/H264_1920x1056_10Mbps_24fps_CAVLC_AAC_IceAge3.avi:
+
+AverageMediaRate: 18720.57k   AverageMXPlayerRate: 54250.29k 
+
+/storage/128E-102C/Test_video/H264_1920x1080_3Mbps_25fps_CABAC_AC3_DragMeToHell_trailer.mp4:
+
+AverageMediaRate: 15553.71k   AverageMXPlayerRate: 54770.86k 
+
+/storage/128E-102C/Test_video/H264_1920x1080_6Mbps_24fps_CABAC_MP3_BigBuckBunny.avi:
+
+AverageMediaRate: 16314.75k   AverageMXPlayerRate: 57297.12k 
+
+/storage/128E-102C/Test_video/H264_1920x1080_7.5Mbps_25fps_CABAC_MP1-2_FashionTV.ts:
+
+AverageMediaRate: 53391.27k   AverageMXPlayerRate: 55583.82k 
+
+/storage/128E-102C/Test_video/H264_1920x1080_8.9Mbps_24fps_CAVLC_AAC_Avatar.mov:
+
+AverageMediaRate: 16022.93k   AverageMXPlayerRate: 53829.87k 
+
+/storage/128E-102C/Test_video/H264_640x360_450kbps_30fps_CAVLC_AAC_Piano_360p.mp4:
+
+AverageMediaRate: 15587.38k   AverageMXPlayerRate: 57677.23k 
+
+/storage/128E-102C/Test_video/H264_720x1280_6.5Mbps_25fps_CABAC_Noaudio_Jewellery.mp4:
+
+AverageMediaRate: 8788.00k   AverageMXPlayerRate: 53904.00k 
+
+/storage/128E-102C/Test_video/H265_1920x1080_30FPS_10Mbps_Main@L5@Main_DTS_755kb_48kHz_24bits_6channels.mp4:
+
+AverageMediaRate: 41814.00k   AverageMXPlayerRate: 55420.00k 
+
+/storage/128E-102C/Test_video/H265_1920x1080_30FPS_15Mbps_Main@L5@Mian_AAC_48K_165Kbs.mp4:
+
+AverageMediaRate: 49740.40k   AverageMXPlayerRate: 54692.80k 
+
+/storage/128E-102C/Test_video/MPEG2_1920x1080_5.6Mbps_30fps_MP3_DragMeToHell_traile.mpg:
+
+AverageMediaRate: 20087.55k   AverageMXPlayerRate: 56439.55k 
+
+/storage/128E-102C/Test_video/MPEG2_720x480_10Mbps_30fps_AC3_ChickenRun.mpg:
+
+AverageMediaRate: 15120.80k   AverageMXPlayerRate: 56344.80k 
+
+/storage/128E-102C/Test_video/MPEG2_720x480_5Mbps_30fps_MP1-2_VIDEO_TS.VOB:
+
+AverageMediaRate: 16720.00k   AverageMXPlayerRate: 55900.00k 
+
+/storage/128E-102C/Test_video/MPEG4_1280x720_4Mbps_24fps_AC3_BigBuckBunny.avi:
+
+AverageMediaRate: 14938.50k   AverageMXPlayerRate: 55124.00k 
+
+/storage/128E-102C/Test_video/MPEG4_720x576_3.3Mbps_24fps_AC3_DragMeToHell_trailer.mp4:
+
+AverageMediaRate: 14544.00k   AverageMXPlayerRate: 54748.50k 
+
+/storage/128E-102C/Test_video/VP8_1920x912_24fps_Vorbis_ResidentEvil.webm:
+
+AverageMediaRate: 19831.43k   AverageMXPlayerRate: 55412.57k 
+
+/storage/128E-102C/Test_video/VP8_540x360_486Kbps_24fps_Vorbis_ElephantsDream.webm:
+
+AverageMediaRate: 17026.67k   AverageMXPlayerRate: 53618.00k 
+
+/storage/128E-102C/Test_video/mjpeg_640x480_2MB_15fps_AC3_Drag Me To Hell_trailer.avi:
+
+AverageMediaRate: 14677.50k   AverageMXPlayerRate: 53675.00k 
+

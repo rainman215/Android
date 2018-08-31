@@ -1,0 +1,69 @@
+from xlutils.copy import copy
+from xlrd import open_workbook
+from xlwt import easyxf
+from datetime import *
+import os
+import sys
+import xlwt
+import xlrd
+import time
+
+pro=sys.argv[1]
+print pro
+
+t=time.strftime('%Y%m%d_%H%M%S',time.localtime(time.time()))
+name=("FileTest","VideoTest","RebootTest","Antutu","Drawelement","Nemark1","Nemark2","3DRating","GLbench","0xbench")
+workbook=xlwt.Workbook(encoding='ascii')
+worksheet=workbook.add_sheet(name[0])
+
+worksheet=workbook.add_sheet(name[1])
+borders=xlwt.Borders()
+borders.left = xlwt.Borders.THIN
+borders.right = xlwt.Borders.THIN
+borders.top = xlwt.Borders.THIN
+borders.bottom = xlwt.Borders.THIN
+style='pattern: pattern solid, fore_colour yellow; '
+style += 'font: bold on; '
+style += 'align: horz center, vert center; '
+data_style=xlwt.easyxf(style)
+data_style.borders=borders
+worksheet.write(0,0,"Test Video",data_style)
+worksheet.col(0).width=17777
+worksheet.write(0,1,"CPU Usage",data_style)
+worksheet.col(1).width=17777
+worksheet.write(0,2,"MEM Usage",data_style)
+worksheet.col(2).width=17777
+
+worksheet=workbook.add_sheet(name[2])
+worksheet.write(0,0,"Reboot interval",data_style)
+worksheet.col(0).width=6666
+worksheet.write(0,1,"Setting reboot times",data_style)
+worksheet.col(1).width=6666
+worksheet.write(0,2,"Current reboot times",data_style)
+worksheet.col(2).width=6666
+for i in range(3,len(name)):
+	worksheet=workbook.add_sheet(name[i])	
+	worksheet.write(0,0,"Resolution",data_style)
+	worksheet.write(1,0,"1920x1080",data_style)
+	worksheet.col(0).width=4444
+	worksheet.write(0,1,"AP",data_style)
+	worksheet.write(1,1,name[i],data_style)
+	worksheet.col(1).width=4444
+	worksheet.write(0,2,"Test Item",data_style)
+	worksheet.col(2).width=4444
+	if name[i]=='GLbench':
+		worksheet.write_merge(0,0,3,4,'Result',data_style)
+		worksheet.col
+	else:	
+		worksheet.write(0,3,"Result",data_style)
+        worksheet.col(3).width=4444
+	#worksheet.write_merge(0,0,3,4,'Result',data_style)
+workbook.save('./%s_%sBenchmark_result.xls'%(pro,t))
+
+name='%s_%sBenchmark_result.xls'%(pro,t)
+print name
+
+file=open("name_exc",'w')
+file.write('%s'%name)
+file.close()
+

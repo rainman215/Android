@@ -1,0 +1,24 @@
+/mnt/sdcard/burningtest/VC1_720x480_30FPS_2M.wmv-----Duration:160742---------
+
+AverageMediaRate0.0%   AverageMXPlayerRate19.0% 
+
+/mnt/sdcard/burningtest/H.264_720x480_2M_24FPS_CABAC.mp4-----Duration:152960---------
+
+AverageMediaRateNaN%   AverageMXPlayerRateNaN% 
+
+/mnt/sdcard/burningtest/vp8_1920x912.we-----Duration:120384---------
+
+AverageMediaRate0.0%   AverageMXPlayerRate73.0% 
+
+/mnt/sdcard/burningtest/VC1_1280x720_30FPS_2M.wmv-----Duration:160742---------
+
+AverageMediaRate0.0%   AverageMXPlayerRate36.333332% 
+
+/mnt/sdcard/burningtest/vp8_1920x912.webm-----Duration:120384---------
+
+AverageMediaRate0.0%   AverageMXPlayerRate72.28571% 
+
+/mnt/sdcard/burningtest/vp8_540x360_elephants-dream.webm-----Duration:117701---------
+
+AverageMediaRate0.0%   AverageMXPlayerRate8.428572%
+

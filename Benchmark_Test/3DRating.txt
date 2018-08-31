@@ -1,0 +1,4 @@
+score_normal
+1766
+score_offscreen
+N/A

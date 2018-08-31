@@ -1,0 +1,53 @@
+/mnt/sdcard/burningtest/VC1_720x480_30FPS_2M.wmv------
+
+MediaMemory:22392K   MXMemory:53116K
+MediaMemory:22392K   MXMemory:53116K
+MediaMemory:22392K   MXMemory:53116K
+MediaMemory:22392K   MXMemory:53116K
+MediaMemory:22392K   MXMemory:53116K
+MediaMemory:22392K   MXMemory:53116K
+MediaMemory:22392K   MXMemory:53116K
+MediaMemory:22392K   MXMemory:53116K
+MediaMemory:22392K   MXMemory:53116K
+MediaMemory:22372K   MXMemory:53064K
+/mnt/sdcard/burningtest/H.264_720x480_2M_24FPS_CABAC.mp4------
+
+/mnt/sdcard/burningtest/vp8_1920x912.we------
+
+MediaMemory:22392K   MXMemory:62292K
+MediaMemory:22392K   MXMemory:62292K
+MediaMemory:22392K   MXMemory:62292K
+MediaMemory:22392K   MXMemory:65580K
+MediaMemory:22392K   MXMemory:65584K
+MediaMemory:22392K   MXMemory:65172K
+MediaMemory:22392K   MXMemory:64320K
+/mnt/sdcard/burningtest/VC1_1280x720_30FPS_2M.wmv------
+
+MediaMemory:22392K   MXMemory:55924K
+MediaMemory:22392K   MXMemory:56320K
+MediaMemory:22392K   MXMemory:56404K
+MediaMemory:22392K   MXMemory:56404K
+MediaMemory:22392K   MXMemory:56016K
+MediaMemory:22392K   MXMemory:56348K
+MediaMemory:22392K   MXMemory:56416K
+MediaMemory:22392K   MXMemory:56416K
+MediaMemory:22392K   MXMemory:56844K
+MediaMemory:22392K   MXMemory:56824K
+/mnt/sdcard/burningtest/vp8_1920x912.webm------
+
+MediaMemory:22392K   MXMemory:63480K
+MediaMemory:22392K   MXMemory:63480K
+MediaMemory:22392K   MXMemory:63316K
+MediaMemory:22392K   MXMemory:65488K
+MediaMemory:22392K   MXMemory:65308K
+MediaMemory:22392K   MXMemory:65324K
+MediaMemory:22392K   MXMemory:64260K
+/mnt/sdcard/burningtest/vp8_540x360_elephants-dream.webm------
+
+MediaMemory:22384K   MXMemory:50060K
+MediaMemory:22384K   MXMemory:50060K
+MediaMemory:22384K   MXMemory:50072K
+MediaMemory:22384K   MXMemory:50072K
+MediaMemory:22384K   MXMemory:50372K
+MediaMemory:22384K   MXMemory:50396K
+MediaMemory:22384K   MXMemory:50396K

@@ -1,0 +1,28 @@
+#/bin/bash
+kill_logcat()
+{
+id=`ps -ef | grep logcat | sed -n '1p' | awk '{print $2}'`
+kill -9 $id
+}
+rm 0x.txt
+adb shell logcat >logcat.log &
+sleep 20
+cat logcat.log | grep "I Benchmark" >temp
+item=("Draw Canvas" "Draw Circle" "Draw Circle2" "Draw Rect" "Draw Arc" "Draw Image" "Draw Text" "OpenGL Cube" "OpenGL Blending" "OpenGL Fog" "Flying Teaport")
+count=-1
+cat temp | while read line
+do
+	echo $line | grep Average
+	if [ $? -eq 0 ]
+	then
+		count=`expr $count + 1`
+		fps=`echo $line | grep Average | awk '{print $10}'`
+		echo ${item[$count]}>>0x.txt
+		echo $fps
+		echo $fps>>0x.txt
+	fi
+	sleep 1
+done
+kill_logcat
+#rm logcat.log
+#rm temp

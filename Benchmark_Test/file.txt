@@ -1,0 +1,11 @@
+copy begin time: 2017-02-23 02:33:38
+copy end time: 2017-02-23 02:33:43
+Cop folder from :/storage/emulated/0/burningtest/filetest to /storage/usbdisk2/filetest is successful!
+move begin time: 2017-02-23 02:33:46
+move end time: 2017-02-23 02:33:55
+move folder from :/storage/usbdisk2/filetest/ to /storage/emulated/0/burningtest/temp/filetest is successful!
+move begin time: 2017-02-23 02:33:57
+move end time: 2017-02-23 02:34:01
+move folder from :/storage/emulated/0/burningtest/temp/filetest to /storage/usbdisk2/filetest is successful!
+Rename folder :filetest_1
+Delete folder :true

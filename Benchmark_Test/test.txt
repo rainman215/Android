@@ -1,0 +1,64 @@
+H264_1920x1080_30Mbps_30fps_CABAC_High@L4.1_AAC_190KB_48khz_2channels_ChickenRun.avi
+AverageMediaRate3.50%   AverageMXPlayerRate0.00%  IdleRate93.14%
+MJPEG_1920X1080_24M_30FPS_PCM_1411kb_44kHz_16bits_2channels.avi
+AverageMediaRate2.00%   AverageMXPlayerRate0.00%  IdleRate90.20%
+MPEG2_1920X1080_35Mbps_30FPS_Main@High_PCM_1536kb_48kHz_16bits_2channels.avi
+AverageMediaRate3.00%   AverageMXPlayerRate0.00%  IdleRate89.45%
+H264_1280x720_8Mbps_30fps_CABAC_Main@L4_AAC_32kb_48kHz_Football.avi
+AverageMediaRate2.17%   AverageMXPlayerRate0.00%  IdleRate90.70%
+VP8_720p_20Mbps_30fps_Vorbis_44Khz_192Kbps_2channels.webm
+AverageMediaRate3.60%   AverageMXPlayerRate0.00%  IdleRate90.59%
+VP8_1920x1080_6M_30FPS_Vorbis_128KB_44khz_2channels.webm
+AverageMediaRate2.00%   AverageMXPlayerRate0.00%  IdleRate90.71%
+MJPEG_1920x1080@30fps_75M_PCM_44K_1411kbps.avi
+AverageMediaRate3.25%   AverageMXPlayerRate0.00%  IdleRate89.23%
+MPEG4_1920x1080_10M_30FPS_ASP@L5_PCM_1536K_48kHz_16bit_2channels.avi
+AverageMediaRate2.00%   AverageMXPlayerRate0.00%  IdleRate89.57%
+H264_1920x1080_50Mbps_30fps_CABAC_High@L4.1_AAC_190KB_48khz_2channels_ChickenRun.avi
+AverageMediaRate5.00%   AverageMXPlayerRate0.00%  IdleRate88.99%
+MPEG2_1920X1080_50Mbps_30FPS_Main@High_PCM_1411kb_44kHz_16bits_2channels.avi
+AverageMediaRate3.11%   AverageMXPlayerRate0.00%  IdleRate88.47%
+H264_1920x1080_50Mbps_30fps_CAVLC_High@L4.1_AAC_190KB_48khz_2channels_ChickenRun.avi
+AverageMediaRate5.00%   AverageMXPlayerRate0.00%  IdleRate88.05%
+MPEG4_1920x1080_25M_30FPS_SP@L1_AAC-LC_55K_48kHz_2channels.mp4
+AverageMediaRate2.33%   AverageMXPlayerRate0.00%  IdleRate88.03%
+H264_1280x720_2M_30FPS_CAVLC_High@L3.1_AAC_128kb_48kHz.mp4
+AverageMediaRate2.00%   AverageMXPlayerRate0.00%  IdleRate88.28%
+MPEG2_720P_35Mbps_30FPS_Main@High_PCM_1536kb_48kHz_16bits_2channels.avi
+AverageMediaRate3.30%   AverageMXPlayerRate0.00%  IdleRate88.04%
+MJPEG_720p_30fps_45M_PCM_48K_1536kbps.avi
+AverageMediaRate1.00%   AverageMXPlayerRate35.00%  IdleRate87.11%
+VP8_1920x1080_8M_30FPS_Vorbis_128KB_44khz_2channels.webm
+AverageMediaRate2.33%   AverageMXPlayerRate0.00%  IdleRate87.41%
+MPEG2_1920X1080_20Mbps_30FPS_Main@High_PCM_1536kb_48kHz_16bits_2channels.avi
+AverageMediaRate2.90%   AverageMXPlayerRate0.00%  IdleRate87.93%
+VP8_1920x1080_20Mbps_30fps_Vorbis_48KHz_320kbps_2channels.webm
+AverageMediaRate4.00%   AverageMXPlayerRate0.00%  IdleRate87.83%
+MJPEG_1920x1080_30fps_17.5M_PCM_1536KB_48khz_2channels.avi
+AverageMediaRate2.40%   AverageMXPlayerRate0.00%  IdleRate87.86%
+VP8_1920x1080_2M_30FPS_Vorbis_128KB_44khz_2channels.webm
+AverageMediaRate1.83%   AverageMXPlayerRate0.00%  IdleRate88.00%
+H264_1920x1080_20Mbps_30fps_CAVLC_Main@L4_AAC_190KB_48khz_2channels_ChickenRun.avi
+AverageMediaRate3.00%   AverageMXPlayerRate0.00%  IdleRate87.98%
+MPEG2_480P_20Mbps_30FPS_Main@High_PCM_1536kb_48kHz_16bits_2channels.avi
+AverageMediaRate2.60%   AverageMXPlayerRate0.00%  IdleRate88.08%
+VP8_1920x1080_10M_30FPS_Vorbis_128KB_44khz_2channels.webm
+AverageMediaRate2.60%   AverageMXPlayerRate0.00%  IdleRate88.37%
+MJPEG_720p_30fps_20M_PCM_48K_1536kbps.avi
+AverageMediaRate1.00%   AverageMXPlayerRate29.00%  IdleRate87.84%
+VP8_720p_16Mbps_30fps_Vorbis_44Khz_192Kbps_2channels.webm
+AverageMediaRate2.60%   AverageMXPlayerRate0.00%  IdleRate87.83%
+MPEG4_1920X1080_40M_30FPS_SP@L1_AAC_LC_132kb_44kHz_2channels.mp4
+AverageMediaRate3.11%   AverageMXPlayerRate0.00%  IdleRate87.93%
+VP8_1920x1080_15M_30FPS_Vorbis_128KB_44khz_2channels.webm
+AverageMediaRate3.00%   AverageMXPlayerRate0.00%  IdleRate87.94%
+H264_1920x1080_40Mbps_30fps_CABAC_High@L4.1_AAC_190KB_48khz_2channels_ChickenRun.avi
+AverageMediaRate4.50%   AverageMXPlayerRate0.00%  IdleRate88.01%
+H264_1920x1080_20Mbps_30fps_CABAC_Main@L4_AAC_190KB_48khz_2channels_ChickenRun.avi
+AverageMediaRate3.00%   AverageMXPlayerRate0.00%  IdleRate87.99%
+MJPEG_1920x1080@60fps_150M_PCM_48K_1536kbps.avi
+AverageMediaRate8.50%   AverageMXPlayerRate0.00%  IdleRate87.70%
+H264_1920x1080_10Mbps_30fps_CAVLC_Main@L4_AAC_190kb_48khz_2channels_ChickenRun.avi
+AverageMediaRate2.25%   AverageMXPlayerRate0.00%  IdleRate87.89%
+MPEG2_1920X1080_10Mbps_30FPS_Main@High_PCM_1536kb_48kHz_16bits_2channels.avi
+AverageMediaRate2.11%   AverageMXPlayerRate0.00%  IdleRate88.28%

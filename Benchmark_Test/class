@@ -1,0 +1,22 @@
+import os
+import sys
+import time
+file=sys.argv[1]
+#target=sys.argv[2]
+b=[]
+i=0
+spath="./%s"%file
+f=open(spath,"r")
+for line in f:
+        line=line.strip('\r\n')
+        if not line[:-1].strip():
+                print "*************"
+        elif line.strip()[0]!='#':
+                line=line.split('-----')[0].split('/')[-1]
+                if "AverageMediaRate" in line:
+			print "not format"
+			time.sleep(1)
+		else:
+			print line
+               		b.append(line)
+print b

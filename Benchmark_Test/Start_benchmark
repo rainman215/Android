@@ -1,0 +1,47 @@
+#!/bin/bash
+IP=$1
+LIT_TIME=2
+
+adb_connect()
+{
+adb disconnect 
+sleep $LIT_TIME
+adb devices
+adb connect $IP
+sleep $LIT_TIME
+adb root
+sleep $LIT_TIME
+adb connect $IP
+sleep $LIT_TIME
+adb devices
+}
+
+
+build_env()
+{
+apt-get install python-setuptools
+sudo easy_install xlrd
+sudo easy_install xlwt
+sudo easy_install xlutils
+}
+
+
+run_all()
+{
+for i in antutu_5.6 drawelement nenamark1 nenamark2 3DRating GLbench 0xbench
+do
+echo "************$i start test!**************"
+monkeyrunner $i
+        while [ $? -gt 0 ]
+        do
+                monkeyrunner $i
+        done
+done
+}
+
+#echo "Please input test IP Address:"
+#read IP
+build_env
+adb_connect
+run_all
+python benchmark_exc

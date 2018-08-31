@@ -1,0 +1,29 @@
+#!/bin/bash
+log=$1
+echo "**************Starting File test!!!**************" | tee -a $log
+if [ -f File_log ]
+then
+rm File_log
+fi
+
+kill_logcat()
+{
+id=`ps -ef | grep logcat | sed -n '1p' | awk '{print $2}'`
+kill -9 $id
+}
+sleep 4
+adb shell rm /sdcard/burningtest/filetest/FileLog/*
+adb shell logcat -c
+monkeyrunner File_Launch
+while [ ! -s File_log ]
+  do
+    adb shell logcat | grep demo >File_log &
+    sleep 1
+    kill_logcat
+    sleep 1
+  done
+adb pull /sdcard/Log/FileTest/filetest.log .
+echo "File Test Done!!!" | tee -a $log
+    sleep 5
+rm File_log
+adb shell am force-stop com.example.viaembedded.filetest

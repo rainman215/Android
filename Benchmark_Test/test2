@@ -1,0 +1,6 @@
+import os
+import sys
+import test
+
+for i in test.T:
+	print i

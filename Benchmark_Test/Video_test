@@ -1,0 +1,12 @@
+#!/bin/bash
+monkeyrunner PlayVideo_Launch
+sleep 10
+adb shell busybox ps -ef | grep playvideo
+while [ $? -eq 0 ]
+do
+echo "video on going"
+sleep 60
+adb shell busybox ps -ef | grep playvideo
+done
+
+python video_exc

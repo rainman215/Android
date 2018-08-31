@@ -1,0 +1,24 @@
+Multitask
+2238
+Runtime
+1710
+CPU interger
+702
+CPU float-point
+652
+Single-thread interger
+1048
+Single-thread float-point
+866
+RAM Operation
+671
+RAM Speed
+790
+2D graphics
+374
+3D graphics
+[1920x1080] 1202
+Storage I/O
+407
+Database I/O
+635
